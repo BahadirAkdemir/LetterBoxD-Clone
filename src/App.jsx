@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./containers/HeroSection/HeroSection";
+import HeroImage from "./containers/HeroSection/HeroImage.jsx";
+import MainContent from "./containers/MainContent/MainContent.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {
@@ -10,13 +11,14 @@ const App = () => {
     <div className={"bg-body"}>
       <div className="mx-auto max-w-screen-lg min-w-screen-lg flex flex-col h-screen bg-body">
         <div className={"flex-grow"}>
+          <HeroImage />
           <header className="header">
             <Navbar />
           </header>
-          <HeroSection />
+          <MainContent />
         </div>
       </div>
-      <div className={"bg-footer "}>
+      <div className={"bg-footer"}>
         <Footer />
       </div>
     </div>

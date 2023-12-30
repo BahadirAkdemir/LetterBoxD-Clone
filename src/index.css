@@ -156,3 +156,27 @@ body {
   width: 273px;
   cursor: pointer;
 }
+
+.hero-text-content {
+  position: relative;
+  padding-top: 400px;
+  text-align: center;
+}
+
+.hero-text-content h2 {
+  font-size: 2.76rem;
+  line-height: 1.33;
+  font-weight: 400;
+  color: #fff;
+}
+
+.get-started-btn {
+  display: inline-block;
+  margin-block: 3.07rem;
+  padding: 0.62em 1.5em;
+  background-color: #00c030;
+  color: #fff;
+  letter-spacing: 0.075em;
+  border-radius: 3px;
+  cursor: pointer;
+}
