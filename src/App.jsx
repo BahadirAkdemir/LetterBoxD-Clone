@@ -27,7 +27,7 @@ const AppContent = () => {
   return (
     <div className={`${isMainPage ? "bg-body-color" : "site-body"}`}>
       <div className={`${isMainPage ? "" : "bg-header-bar-color"}`}>
-        <header className="header  mx-auto max-w-screen-lg min-w-screen-lg flex flex-col h-max bg-red">
+        <header className="header  mx-auto max-w-screen-lg min-w-screen-lg flex flex-col h-max">
           <Navbar isMainpage={isMainPage} />
         </header>
         {isMainPage && <HeroImage />}
