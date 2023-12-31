@@ -13,7 +13,7 @@ const HeroContent = () => {
       <a className="get-started-btn" href="">
         GET STARTED - IT'S FREE
       </a>
-      <div className="flex justify-center items-center mb-32 gap-2">
+      <div className="flex justify-center items-center gap-2">
         <p>The social network for film lovers. Also available on</p>
         <a href="" className="pi pi-apple"></a>
         <a href="" className="pi pi-android"></a>
