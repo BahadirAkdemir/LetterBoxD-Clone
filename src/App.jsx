@@ -1,5 +1,5 @@
+import React from "react";
 import ReactDOM from "react-dom";
-
 import Navbar from "./components/Navbar/Navbar";
 import HeroImage from "./containers/HeroSection/HeroImage.jsx";
 import MainContent from "./containers/MainContent/MainContent.jsx";
